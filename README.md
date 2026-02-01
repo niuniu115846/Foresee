@@ -22,8 +22,7 @@
     🧑‍💼 <b><i>Project Leader: Prof. Zhe-ming Lu</i></b>
     <br>
     <div align="center">
-    <a href="https://arxiv.org/abs/2511.12110"><img src='https://img.shields.io/badge/arXiv-MediRound-red' alt='Paper PDF'></a>
-    <a href="https://youtu.be/oetgnqgce-g"><img src='https://img.shields.io/badge/YouTube-MediRound-lightgrey' alt='Demo Video'></a>
+    <a href="https://arxiv.org/abs/2511.13442"><img src='https://img.shields.io/badge/arXiv-Foresee-red' alt='Paper PDF'></a>
     </div>
   </p>
 </p>
