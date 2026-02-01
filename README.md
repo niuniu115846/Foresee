@@ -27,6 +27,8 @@
   </p>
 </p>
 
+
+![teaser_img](images/teaser.pdf)
 ## ✨ Highlights
 
 * 🔹 Core feature or contribution #1
