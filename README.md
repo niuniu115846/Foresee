@@ -98,6 +98,21 @@ cd checkpoints && \
 cd ../..
 ```
 
+## 🎯 Test
+
+You can test Foresee using the following script:
+
+```bash
+python detection.py
+```
+
+The script allows customization through the following environment variables:
+
+- `WEIGHT_PATH`: Path to the directory containing the FakeShield model weights.
+
+Modify these variables as needed to adapt the evaluation process to different datasets and setups.
+
+
 ## :clap: Acknowledgements
 This project builds upon several outstanding research and engineering efforts:
 
