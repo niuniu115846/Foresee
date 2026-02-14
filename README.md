@@ -8,12 +8,12 @@
   <p align="center">
     <a><strong>Rui Zuo</strong></a><sup>1</sup>
     ·
+    <a><strong>Qinyue Tong</strong></a><sup>1</sup>
+    ·
     <a href="https://scholar.google.com/citations?user=qx1yRVEAAAAJ&hl=zh-CN"><strong>Ziqian Lu</strong></a><sup>2</sup>
     ·
-    <a><strong>Jun Liu</strong></a><sup>1</sup>
+    <a><strong>Sixue Men</strong></a><sup>1</sup>
     <br>
-    <a><strong>Rui Zuo</strong></a><sup>1</sup>
-    ·
     <a href="https://person.zju.edu.cn/lzmhome"><strong>Zhe-ming Lu</strong></a><sup>1</sup>
     <!-- <br> -->
     <br>
@@ -28,7 +28,7 @@
 </p>
 
 
-![teaser_img](images/teaser.pdf)
+![teaser_img](images/teaser.png)
 ## ✨ Highlights
 
 * 🔹 Core feature or contribution #1
