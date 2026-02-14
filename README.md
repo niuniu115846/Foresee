@@ -28,7 +28,7 @@
 </p>
 
 
-![teaser_img](images/teaser.png)
+![main_img](images/main.png)
 
 ## :mega: News
 - **2025.11.17**: We’ve uploaded our paper *Unlocking the Forgery Detection Potential of Vanilla MLLMs:
@@ -37,20 +37,10 @@ A Novel Training-Free Pipeline* to arXiv! Welcome to **watch** 👀 this reposit
 
 ## 🤖 Foresee Overview
 
-Provide a high‑level overview of the method or system design. Avoid too much implementation detail here.
+Foresee is a training-free MLLM-based pipeline tailored for interpretable image forgery detection and localization(IFDL). Foresee eliminates the need for additional training and enables a lightweight inference process, while surpassing existing MLLM-based methods in both tamper localization accuracy and the richness of textual explanations. Foresee augments vanilla MLLMs with a type-prior-driven reasoning process and supplies copy-move-specific feature extraction hints, enabling accurate identification of various manipulation types (e.g., splicing, copy-move) and providing more insightful textual explanations.
 
-* Overall pipeline
-* Key components / modules
-* Important design choices
 
-(Optional: insert a figure)
-
-```
-[Input] → [Module A] → [Module B] → [Output]
-```
-
----
-
+![teaser_img](images/teaser.png)
 ## 🚀 Installation
 
 ### Requirements
