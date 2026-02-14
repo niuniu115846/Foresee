@@ -70,8 +70,17 @@ pip install -r requirements.txt
 ---
 
 ## :clap: Acknowledgements
-This project is developed on the codebase of [SegLLM](https://github.com/berkeley-hipie/segllm) and data from [SA-Med2D-20M Dataset](https://github.com/OpenGVLab/SAM-Med2D). We appreciate their valuable contributions! 
+This project builds upon several outstanding research and engineering efforts:
 
+- [GPT-5](https://openai.com/) developed by OpenAI  
+- [Gemini 2.5 Pro](https://deepmind.google/technologies/gemini/) developed by Google DeepMind  
+- [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO) by IDEA Research  
+- [SAM 2](https://ai.meta.com/sam2/) by Meta AI  
+
+We sincerely thank the teams behind these models for their pioneering 
+contributions to multimodal large models, visual grounding, and 
+segmentation. Their open research and engineering efforts have 
+significantly advanced the field and made this project possible.
 ## 📦 Usage
 
 ### Quick Start
