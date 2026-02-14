@@ -52,7 +52,7 @@ Foresee is a training-free MLLM-based pipeline tailored for interpretable image 
 ### Setup
 
 ```bash
-git clone https://github.com/yourname/yourrepo.git
+git clone https://github.com/niuniu115846/Foresee.git
 cd Foresee
 pip install -r requirements.txt
 ```
