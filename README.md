@@ -29,6 +29,11 @@
 
 
 ![teaser_img](images/teaser.png)
+
+## :mega: News
+- **2025.11.17**: We’ve uploaded our paper *Unlocking the Forgery Detection Potential of Vanilla MLLMs:
+A Novel Training-Free Pipeline* to arXiv! Welcome to **watch** 👀 this repository for the latest updates.
+
 ## ✨ Highlights
 
 * 🔹 Core feature or contribution #1
