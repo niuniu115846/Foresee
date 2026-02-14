@@ -60,8 +60,10 @@ pip install -r requirements.txt
 ```
 
 ### 2️⃣ Install Grounding DINO
-Foresee relies on Grounding DINO for visual grounding.
+Foresee relies on [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO) for visual grounding.
+
 Clone and install it in the same environment:
+
 ```bash
 git clone https://github.com/IDEA-Research/GroundingDINO.git
 cd GroundingDINO
