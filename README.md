@@ -6,7 +6,7 @@
 
   </h2>
   <p align="center">
-    <a><strong>Qinyue Tong</strong></a><sup>1</sup>
+    <a><strong>Rui Zuo</strong></a><sup>1</sup>
     ·
     <a href="https://scholar.google.com/citations?user=qx1yRVEAAAAJ&hl=zh-CN"><strong>Ziqian Lu</strong></a><sup>2</sup>
     ·
