@@ -34,26 +34,8 @@
 - **2025.11.17**: We’ve uploaded our paper *Unlocking the Forgery Detection Potential of Vanilla MLLMs:
 A Novel Training-Free Pipeline* to arXiv! Welcome to **watch** 👀 this repository for the latest updates.
 
-## ✨ Highlights
 
-* 🔹 Core feature or contribution #1
-* 🔹 Core feature or contribution #2
-* 🔹 Lightweight / efficient / scalable / training‑free (pick what fits)
-* 🔹 Easy to use and extend
-
----
-
-## 📌 Introduction
-
-Briefly introduce the background and motivation of the project. Answer **what problem it solves**, **why it matters**, and **what makes it different** from existing solutions.
-
-Example:
-
-> This project aims to address XXX by leveraging XXX. Unlike prior methods that XXX, our approach XXX.
-
----
-
-## 🧠 Method Overview
+## 🤖 Foresee Overview
 
 Provide a high‑level overview of the method or system design. Avoid too much implementation detail here.
 
