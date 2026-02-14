@@ -69,6 +69,9 @@ pip install -r requirements.txt
 
 ---
 
+## :clap: Acknowledgements
+This project is developed on the codebase of [SegLLM](https://github.com/berkeley-hipie/segllm) and data from [SA-Med2D-20M Dataset](https://github.com/OpenGVLab/SAM-Med2D). We appreciate their valuable contributions! 
+
 ## 📦 Usage
 
 ### Quick Start
