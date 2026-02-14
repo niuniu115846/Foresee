@@ -79,6 +79,26 @@ wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-
 cd ../..
 ```
 
+### 3️⃣ Install SAM 2
+
+Foresee also depends on [SAM 2](https://github.com/facebookresearch/sam2) for segmentation.
+
+Clone and install it in the same environment:
+
+```bash
+git clone https://github.com/IDEA-Research/GroundingDINO.git
+cd GroundingDINO
+pip install -e .
+```
+
+Download pre-trained model weights for GroundingDino.
+
+```bash
+mkdir weights
+cd weights
+wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
+cd ../..
+```
 
 ## :clap: Acknowledgements
 This project builds upon several outstanding research and engineering efforts:
