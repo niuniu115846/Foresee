@@ -68,11 +68,16 @@ Clone and install it in the same environment:
 git clone https://github.com/IDEA-Research/GroundingDINO.git
 cd GroundingDINO
 pip install -e .
-cd ..
 ```
 
+Download pre-trained model weights for GroundingDino.
 
-
+```bash
+mkdir weights
+cd weights
+wget -q https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth
+cd ../..
+```
 
 
 ## :clap: Acknowledgements
