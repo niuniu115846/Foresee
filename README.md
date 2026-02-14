@@ -41,6 +41,7 @@ Foresee is a training-free MLLM-based pipeline tailored for interpretable image 
 
 
 ![teaser_img](images/teaser.png)
+
 ## 🚀 Installation
 
 ### Requirements
@@ -51,13 +52,26 @@ Foresee is a training-free MLLM-based pipeline tailored for interpretable image 
 
 ### Setup
 
+### 1️⃣ Clone Foresee
 ```bash
 git clone https://github.com/niuniu115846/Foresee.git
 cd Foresee
 pip install -r requirements.txt
 ```
 
----
+### 2️⃣ Install Grounding DINO
+Foresee relies on Grounding DINO for visual grounding.
+Clone and install it in the same environment:
+```bash
+git clone https://github.com/IDEA-Research/GroundingDINO.git
+cd GroundingDINO
+pip install -e .
+cd ..
+```
+
+
+
+
 
 ## :clap: Acknowledgements
 This project builds upon several outstanding research and engineering efforts:
