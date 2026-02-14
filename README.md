@@ -45,15 +45,15 @@ Foresee is a training-free MLLM-based pipeline tailored for interpretable image 
 
 ### Requirements
 
-* Python >= 3.8
-* PyTorch >= 2.0 (if applicable)
-* CUDA >= 11.x (optional)
+* Python == 3.10
+* PyTorch == 2.5
+* CUDA == 12.4
 
 ### Setup
 
 ```bash
 git clone https://github.com/yourname/yourrepo.git
-cd yourrepo
+cd Foresee
 pip install -r requirements.txt
 ```
 
