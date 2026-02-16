@@ -118,6 +118,7 @@ setx OPENAI_BASE_URL "https://api.openai.com/v1"
 ```bash
 cd ffd
 python run_point_method.py
+cd ..
 ```
 The script allows customization through the following environment variables:
 
