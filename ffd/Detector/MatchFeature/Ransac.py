@@ -15,9 +15,6 @@ def Ransac(match_kp1, match_kp2):
     homography, status = cv2.findHomography(p1, p2, cv2.RANSAC, 5.0)
 
     inliers_thresold = 2.5  # Eşitlik kontrolü ile değişkenleri belirlemek için mesafe eşiği
-    # Birinci anahtar noktanın projeksiyonundan ikinci kilit noktaya olan mesafe eşikten azsa, homografi modeline uyar.
-    # inliers için yeni bir eşleşme veriseti oluşturulur eşleşmeleri çizdirmek için gerekli
-
     good_matches = []
     for i, m in enumerate(match_kp1):
 
@@ -26,7 +23,6 @@ def Ransac(match_kp1, match_kp2):
         col = np.dot(homography, col)
         col /= col[2, 0]
 
-        #HOMOGRAFİ İLE NOKTA ARASINDA UZAKLIK HESABI YAPILIR
         distance = sqrt(pow(col[0, 0] - match_kp2[i].pt[0], 2) +
                         pow(col[1, 0] - match_kp2[i].pt[1], 2))
 
@@ -59,3 +55,4 @@ def Ransac(match_kp1, match_kp2):
     good_points2 = np.float32([kp2.pt for kp2 in inliers2])
 
     return good_points1, good_points2, rec
+
