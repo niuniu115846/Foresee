@@ -98,6 +98,22 @@ cd checkpoints && \
 cd ../..
 ```
 
+### 4️⃣ Configure LLM API Keys
+
+Set your OpenAI API key as an environment variable:
+
+```bash
+export OPENAI_API_KEY="your_openai_api_key_here"
+export OPENAI_BASE_URL="https://api.openai.com/v1"
+```
+
+Or (Windows PowerShell):
+```bash
+setx OPENAI_API_KEY "your_openai_api_key_here"
+setx OPENAI_BASE_URL "https://api.openai.com/v1"
+```
+
+
 ## 🎯 Test
 
 You can test Foresee using the following script:
