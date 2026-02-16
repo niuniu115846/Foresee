@@ -138,12 +138,27 @@ You can test Foresee using the following script:
 
 ```bash
 cd detection
-python detection.py
+python detection.py \
+    --data_path dataset/CASIA 1.0/TP \
+    --ffd_mask_path ffd/mask_output_path \
+    --region_prompt_path ffd/hint_output_path \
+    --out_path datasets/CASIA1.0_output_path \
+    --doc_type TP \
+    --llm_model gemini-2.5-pro-preview-03-25 \
+    --use_ffd_mask
 ```
 
 The script allows customization through the following environment variables:
 
-- `WEIGHT_PATH`: Path to the directory containing the FakeShield model weights.
+- `DATA_PATH`: Path to the root directory of the dataset to be processed.
+- `FFD_MASK_PATH`: Path to the precomputed FFD mask directory.
+- `REGION_PROMPT_PATH`: Path to the region-level prompt results.
+- `OUT_PATH`: Directory to save final segmentation and detection results.
+- `DOC_TYPE`: Document type indicator. Options:
+  - `TP` → Tampered  
+  - `Au` → Authentic
+- `LLM_MODEL`: Name of the LLM model used for region reasoning.
+- `USE_FFD_MASK`: Boolean flag. If provided, enables FFD mask guidance for copy-move detection..
 
 Modify these variables as needed to adapt the evaluation process to different datasets and setups.
 
