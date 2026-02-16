@@ -176,6 +176,8 @@ project_root/
 ├── detection/
 ├── ffd/
 ├── llm/
+├── sam/
+├── GroundingDino/
 └── README.md
 ```
 
