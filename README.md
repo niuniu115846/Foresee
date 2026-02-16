@@ -162,69 +162,22 @@ segmentation. Their open research and engineering efforts have
 significantly advanced the field and made this project possible.
 ## 📦 Usage
 
-### Quick Start
-
-```bash
-python demo.py --input example.jpg
-```
-
-### Detailed Usage
-
-Explain important arguments or configs.
-
-```bash
-python main.py \
-  --config configs/default.yaml \
-  --input data/example
-```
-
----
-
-## 📊 Experiments & Results
-
-Describe datasets, evaluation metrics, and main results.
-
-* Dataset(s): XXX
-* Metrics: Accuracy / F1 / AUC / mIoU / etc.
-
-(Optional: add a result table or figure)
-
----
-
-## 🧪 Reproducibility
-
-Provide instructions to reproduce the main results.
-
-```bash
-bash scripts/run_experiment.sh
-```
-
-Mention random seeds, checkpoints, or hardware if necessary.
-
----
 
 ## 🗂 Project Structure
 
 ```text
 project_root/
-├── data/
-├── configs/
-├── models/
-├── scripts/
-├── utils/
-├── main.py
+├── datasets
+│   ├── CASIA 1.0/           # CASIAv2 Tampered Images
+│   │   ├── TP/
+│   │   ├── Au/
+│   │   ├── tp.list
+│   │   └── au.list/
+├── detection/
+├── ffd/
+├── llm/
 └── README.md
 ```
-
----
-
-## 📎 Pretrained Models (Optional)
-
-| Model   | Dataset | Link          |
-| ------- | ------- | ------------- |
-| Model‑A | XXX     | [Download](#) |
-
----
 
 ## 📚 Citation
 
@@ -239,14 +192,6 @@ If you find this project useful, please consider citing:
 }
 ```
 
----
-
-## 🤝 Acknowledgements
-
-Mention related projects, codebases, or collaborators you built upon.
-
----
-
 ## 📄 License
 
 This project is released under the **MIT License** (or Apache 2.0 / GPL / etc.). See `LICENSE` for details.
@@ -255,9 +200,8 @@ This project is released under the **MIT License** (or Apache 2.0 / GPL / etc.).
 
 ## 📬 Contact
 
-* Author: Your Name
-* Email: [your@email.com](mailto:your@email.com)
-* Homepage: [https://yourpage.com](https://yourpage.com)
+* Author: Rui Zuo
+* Email: [ruizuo@zju.edu.cn](ruizuo@zju.edu.cn)
 
 ---
 
