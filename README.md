@@ -117,7 +117,11 @@ setx OPENAI_BASE_URL "https://api.openai.com/v1"
 
 ```bash
 cd ffd
-python run_point_method.py
+python run_point_method.py \
+    --input_folder ./data/images \
+    --output_folder ./results/visualizations \
+    --mask_folder ./results/masks \
+    --type surf
 cd ..
 ```
 The script allows customization through the following environment variables:
