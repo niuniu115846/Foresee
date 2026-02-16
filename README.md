@@ -133,6 +133,7 @@ The script allows customization through the following environment variables:
 You can test Foresee using the following script:
 
 ```bash
+cd detection
 python detection.py
 ```
 
