@@ -201,10 +201,10 @@ project_root/
 If you find this project useful, please consider citing:
 
 ```bibtex
-@article{yourpaper2025,
-  title={Title of Your Paper},
-  author={Author1 and Author2},
-  journal={Conference / Journal},
+@article{zuo2025unlocking,
+  title={Unlocking the Forgery Detection Potential of Vanilla MLLMs: A Novel Training-Free Pipeline},
+  author={Zuo, Rui and Tong, Qinyue and Lu, Zhe-Ming and Lu, Ziqian},
+  journal={arXiv preprint arXiv:2511.13442},
   year={2025}
 }
 ```
