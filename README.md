@@ -175,7 +175,6 @@ We sincerely thank the teams behind these models for their pioneering
 contributions to multimodal large models, visual grounding, and 
 segmentation. Their open research and engineering efforts have 
 significantly advanced the field and made this project possible.
-## 📦 Usage
 
 
 ## 🗂 Project Structure
