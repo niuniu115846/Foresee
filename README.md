@@ -113,6 +113,19 @@ setx OPENAI_API_KEY "your_openai_api_key_here"
 setx OPENAI_BASE_URL "https://api.openai.com/v1"
 ```
 
+### 5️⃣ Get Copy-Move hints
+
+```bash
+cd ffd
+python run_point_method.py
+```
+The script allows customization through the following environment variables:
+
+- `INPUT_FOLDER`: Path to the input image folder.
+- `OUTPUT_FOLDER`: Path to save visualization results.
+- `MASK_OUTPUT_FOLDER`: Path to save generated masks.
+- `TYPE`: Feature detector type (sift / surf / akaze).
+
 
 ## 🎯 Test
 
