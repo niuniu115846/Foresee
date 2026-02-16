@@ -16,11 +16,10 @@ class AbstractDetector(metaclass=ABCMeta):
     def __init__(self, image):
         self.image = image
         self.MatchFeatures = MatchFeatures(self.key_points, self.descriptors, self.distance)  # match points
-        self.Draw = DrawRectangle(self.image, self.MatchFeatures.gPoint1, self.MatchFeatures.gPoint2, self.color, self.MatchFeatures.cRectangle)  # draw matches
-        #  self.Draw = DrawLine(self.image,  self.MatchFeatures.gPoint1,  self.MatchFeatures.gPoint2, self.color) # from DrawFunctions.Line import DrawLine -> import it
+        self.Draw = DrawRectangle(self.image, self.MatchFeatures.gPoint1, self.MatchFeatures.gPoint2, self.color, self.MatchFeatures.cRectangle)
         self.image = self.Draw.image
 
-    # detect keypoints and descriptors
     @abstractmethod
     def detectFeature(self):
+
         pass
