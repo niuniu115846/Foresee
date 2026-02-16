@@ -40,7 +40,7 @@ class MatchFeatures:
                     mkp1.append(self.key_points[temp.queryIdx])
                     mkp2.append(self.key_points[temp.trainIdx])
 
-        # remove the false matches
-        print(f" 匹配点数量: {len(mkp1)}")
+        print(f" point number: {len(mkp1)}")
         print(f" cRectangle: {self.cRectangle}")
+
         self.gPoint1, self.gPoint2, self.cRectangle = Ransac(mkp1, mkp2)
