@@ -15,7 +15,7 @@ class AbstractDetector(metaclass=ABCMeta):
 
     def __init__(self, image):
         self.image = image
-        self.MatchFeatures = MatchFeatures(self.key_points, self.descriptors, self.distance)  # match points
+        self.MatchFeatures = MatchFeatures(self.key_points, self.descriptors, self.distance)
         self.Draw = DrawRectangle(self.image, self.MatchFeatures.gPoint1, self.MatchFeatures.gPoint2, self.color, self.MatchFeatures.cRectangle)
         self.image = self.Draw.image
 
@@ -23,3 +23,4 @@ class AbstractDetector(metaclass=ABCMeta):
     def detectFeature(self):
 
         pass
+
