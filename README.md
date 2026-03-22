@@ -12,7 +12,7 @@
     ·
     <a href="https://scholar.google.com/citations?user=qx1yRVEAAAAJ&hl=zh-CN"><strong>Ziqian Lu</strong></a><sup>2</sup>
     ·
-    <a><strong>Sixue Men</strong></a><sup>1</sup>
+    <a><strong>Yunlong Yu</strong></a><sup>1</sup>
     <br>
     <a href="https://person.zju.edu.cn/lzmhome"><strong>Zhe-ming Lu</strong></a><sup>1</sup>
     <!-- <br> -->
