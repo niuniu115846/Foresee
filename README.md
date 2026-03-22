@@ -208,9 +208,6 @@ If you find this project useful, please consider citing:
 }
 ```
 
-## 📄 License
-
-This project is released under the **MIT License** (or Apache 2.0 / GPL / etc.). See `LICENSE` for details.
 
 ---
 
